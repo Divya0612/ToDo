@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #dfe2e6;
+}
+
+.action-cont{
+    position: relative;
+    padding: 1rem;
+    background-color: #29c2bf;
+    height: 5rem;
+    width: 100%;
+    /* border-radius: 1rem; */
+    display: flex;
+    align-items: center;
+}
+.input{
+    background-color: #96eceb;
+    width: 99%;
+    height: 3rem;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    font-size: medium;
+}
+
+.input::placeholder{
+    color: rgb(255, 255, 255);
+}
+.add{
+    position: absolute;
+    right: 0;
+    border-radius: 50%;
+    height: 3.8rem;
+    width: 3.8rem;
+    background-color: white;
+    margin-right: 0.6rem;
+}
+.add:hover{
+    cursor: pointer;
+    background-color: #eef0f1;
+}
+.add-btn{
+    color: #07b3b0;
+    padding: 0.9rem;
+    font-size: 2rem;
+}
+
+.todo-task{
+    height: 3rem;
+    width: 95%;
+    background-color: white;
+    margin: 1.8rem;
+    display: flex;
+}
+.task-name{
+    width: 100%;
+    height: 2rem;
+    margin: 0.5rem;
+    padding: 0.3rem;
+}
+.todo-action{
+    display: flex;
+}
+.delete{
+    color: gray;
+    margin: 0.7rem;
+    
+}
+.check{
+    color: gray;
+    margin: 0.7rem;
+    
+}
+.checked{
+    color: #07b3b0;
+    margin: 0.7rem;
+}
+.checked:hover{
+    cursor: pointer;
+}
+.delete:hover{
+    cursor: pointer;
+    color: rgb(248, 91, 91);
+}
+.check:hover{
+    cursor: pointer;
+    color: #07b3b0;
+}
+.message1{
+    color: #66686b;
+    text-align: center;
+    margin: 2rem;
+    display: block;
+}
+.message2{
+    color: #66686b;
+    text-align: center;
+    margin: 2rem;
+    display: block;
+}
+.id{
+    display: none;
+}
+.view{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+    height: 4rem;
+    /* background-color: blueviolet; */
+    /* padding: 2rem; */
+}
+.view1{
+    text-align: center;
+    margin-right: 4rem;
+    font-size: 3rem;
+    background-color: rgba(152, 161, 161, 0.747);
+    height: 4rem;
+    width: 40%;
+    
+}
+.view2{
+    text-align: center;
+    margin-left: 4rem;
+    font-size: 3rem;
+    background-color: #96eceb;
+    height: 4rem;
+    width: 50%;
+}
+.view1:hover{
+    cursor: pointer;
+    background-color: rgba(152, 161, 161, 0.747);
+}
+
+.view2:hover{
+    cursor: pointer;
+    background-color: rgba(152, 161, 161, 0.747);
+}
+.block1{
+    display: block;
+}
+.block2{
+    display: none;
+}
